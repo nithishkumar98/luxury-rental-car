@@ -1,0 +1,13 @@
+.home-wrapper{
+    /* background: linear-gradient(135deg, hsla(33, 100%, 53%, 1) 11%, hsla(58, 100%, 68%, 1) 100%); */
+    background: linear-gradient(135deg, hsla(186, 33%, 94%, 1) 30%, hsla(218, 31%, 80%, 1) 100%);
+
+}
+
+/* .rental-car-search-wrappper-home{
+    backdrop-filter: blur(6.7px) saturate(243.1%);
+    -webkit-backdrop-filter:blur(6.7px) saturate(243.1%);
+    background-color:rgba(190, 190, 190, 0.28);
+    border-radius: 15px;
+    border: 2px solid rgba(209, 213, 219, 0.3);
+} */
