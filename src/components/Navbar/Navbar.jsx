@@ -9,9 +9,9 @@ export const Navbar = () => {
         style={{ fontFamily: "Lexend Deca" }}
         className="nav-bar text-xs sm:text-sm  hidden sm:flex items-center justify-between h-16 p-5 w-11/12 rounded"
       >
-        <div className="nav-left flex items-center nav-logo">Luxury Rentals </div>
+        <div className="nav-left text-bold text-l flex items-center nav-logo">Luxury Rentals </div>
         <div className="nav-middle flex gap-5 items-center">
-          <div>Luxury Cars</div>
+          <div className="">Luxury Cars</div>
           <div>About us</div>
           <div>Book Now</div>
         </div>

@@ -219,7 +219,7 @@ const RentalCarSearch = () => {
             </div>
 
             <div className="return-time ">
-              <Stack spacing={2}>
+              <Stack spacing={2} sx={{ width: 200 }}>
                 <BasicTimePicker size={"small"} label={"Drop time"} />
               </Stack>
             </div>
