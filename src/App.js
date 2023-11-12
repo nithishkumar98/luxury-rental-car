@@ -10,15 +10,20 @@ import SignIn from "./components/SignIn/SignIn";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      {/* <Home /> */}
-      {/* <RentalCarSearch /> */}
-      {/* <Card />   */}
-      {/* <SignIn /> */}
-      <CarPage />
-      {/* <ConfirmPage /> */}
-      {/* <RentalCarSearch /> */}
-      {/* <CarPage /> */}
+      <Home />
+        {/* <Navbar /> */}
+        {/* <div className="">
+          <RentalCarSearch />
+        </div> */}
+        {/* <Card />   */}
+        {/* <SignIn /> */}
+        {/* <RentalCarSearch /> */}
+
+        {/* <CarPage /> */}
+        {/* <ConfirmPage /> */}
+        {/* <RentalCarSearch /> */}
+        {/* <CarPage /> */}
+      {/* </Home> */}
     </div>
   );
 }

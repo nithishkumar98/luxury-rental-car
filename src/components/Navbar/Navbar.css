@@ -1,7 +1,4 @@
 .nav-bar{
-    top:7%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 240px;
 
   backdrop-filter: blur(6.7px) saturate(243.1%);

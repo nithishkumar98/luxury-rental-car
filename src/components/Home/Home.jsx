@@ -1,14 +1,18 @@
 import React from "react";
 import "./Home.css";
 import RentalCarSearch from "../RentalCarSearch/RentalCarSearch";
+import { Navbar } from "../Navbar/Navbar";
+import SignIn from "../SignIn/SignIn";
 
 const Home = () => {
   return (
-    <div>
-      <div className="home-wrapper min-h-screen flex flex-wrap w-full">
-        <div className="mt-32 rental-car-search-wrappper-home  mx-20">
-          <RentalCarSearch />
-        </div>
+    <div className="home-wrapper h-screen ">
+      <div className="component-wrapper flex justify-center">
+        <Navbar />
+      </div>
+      {/* <SignIn /> */}
+      <div className="mt-5 px-10">
+        <RentalCarSearch />
       </div>
     </div>
   );

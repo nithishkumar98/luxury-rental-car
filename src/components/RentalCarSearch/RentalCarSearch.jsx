@@ -148,7 +148,7 @@ const RentalCarSearch = () => {
           {/* locations start */}
           <div className="location flex flex-wrap justify-center gap-5 mt-2 ">
             <div className="pickup-loc  ">
-              <Stack spacing={2} sx={{ width: 260, fontSize: 12 }}>
+              <Stack spacing={2} sx={{ width: 200 }}>
                 <Autocomplete
                   freeSolo
                   id="free-solo-2-demo"
@@ -170,7 +170,7 @@ const RentalCarSearch = () => {
               </Stack>
             </div>
             <div className="return-loc flex gap-5 ">
-              <Stack spacing={2} sx={{ width: 260 }}>
+              <Stack spacing={2} sx={{ width: 200 }}>
                 <Autocomplete
                   freeSolo
                   id="free-solo-2-demo"
@@ -187,7 +187,6 @@ const RentalCarSearch = () => {
                       }}
                       style={{
                         fontSize: 0.5,
-                        background: "red",
                         padding: "0px",
                       }} // Adjust the font size as needed
                     />
@@ -200,13 +199,13 @@ const RentalCarSearch = () => {
 
           <div className="pick-up-date-time flex flex-wrap justify-center gap-5 ">
             <div className="pickup-date  ">
-              <Stack spacing={2}>
+              <Stack spacing={2} sx={{ width: 200 }}>
                 <BasicDatePicker size={"small"} label={"Pick-up date"} />
               </Stack>
             </div>
 
             <div className="pick-time ">
-              <Stack spacing={2}>
+              <Stack spacing={2} sx={{ width: 200 }}>
                 <BasicTimePicker size={"small"} label={"Pick-up time"} />
               </Stack>
             </div>
@@ -214,7 +213,7 @@ const RentalCarSearch = () => {
 
           <div className="drop-date-time flex flex-wrap justify-center gap-5 ">
             <div className="return-date ">
-              <Stack spacing={2}>
+              <Stack spacing={2} sx={{ width: 200 }}>
                 <BasicDatePicker size={"small"} label={"Drop date"} />
               </Stack>
             </div>

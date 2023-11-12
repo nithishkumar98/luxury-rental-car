@@ -1,6 +1,6 @@
 .car-page-wrapper{
     /* background: linear-gradient(135deg, hsla(33, 100%, 53%, 1) 11%, hsla(58, 100%, 68%, 1) 100%); */
-    background: linear-gradient(135deg, hsla(186, 33%, 94%, 1) 30%, hsla(218, 31%, 80%, 1) 100%);
+    /* background: linear-gradient(135deg, hsla(186, 33%, 94%, 1) 30%, hsla(218, 31%, 80%, 1) 100%); */
 
 }
 
@@ -11,4 +11,14 @@
     background-color:rgba(184, 195, 255, 0.28);
     border-radius: 6px;
     border: 2px solid rgba(209, 213, 219, 0.3);
+}
+
+.car-page-wrapper{
+    height: calc(100% - 35px);
+}
+
+.sort-wrapper{
+    /* background: linear-gradient(135deg, hsla(186, 33%, 94%, 1) 30%, hsla(218, 31%, 80%, 1) 100%); */
+    background-color:#D5E8FB;
+    top: -2px;
 }
